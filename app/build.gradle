@@ -6,14 +6,13 @@ plugins {
 android {
 
     //directory of java class files
-    // namespace 'com.name.myapp'
     namespace 'com.github.Un1Gfn.bibletracker' // directory of java class files
 
     compileSdkVersion 31 // Android 12
 
     defaultConfig {
         // https://developer.android.com/studio/build/configure-app-module#set-application-id
-        applicationId 'com.github.Un1Gfn.bibletracker'
+        applicationId 'com.j309im.dsbt5p'
         // minSdkVersion 16 // Android 4.1
         minSdkVersion 31 // Android 12
         targetSdkVersion 31 // Android 12

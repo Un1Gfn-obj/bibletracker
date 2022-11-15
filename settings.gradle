@@ -16,8 +16,8 @@ dependencyResolutionManagement {
   }
 }
 
-//name of gradle project
-rootProject.name = 'bibletracker'
+// name of gradle project
+rootProject.name = 'vwbb37'
 
-//include sub-project in app folder
+// include sub-project in app folder
 include 'app'

@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android">
   <!-- label name in app drawer -->
-  <application android:label="aaaik9">
+  <!-- PROJ/icon.sh  -->
+  <application android:label="aaaik9" android:icon="@mipmap/ic_launcher">
     <!-- /activity -->
     <activity android:name=".MainActivity" android:exported="true">
       <!-- /activity/launcherActivity -->
