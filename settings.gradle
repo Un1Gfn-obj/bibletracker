@@ -9,13 +9,15 @@ pluginManagement {
 
 //list repositories to find packages & libraries
 dependencyResolutionManagement {
-     repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
-    repositories {
-        google()
-        mavenCentral()
-    }
+  repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+  repositories {
+      google()
+      mavenCentral()
+  }
 }
+
 //name of gradle project
-rootProject.name = 'myApps'
+rootProject.name = 'bibletracker'
+
 //include sub-project in app folder
 include 'app'

@@ -1,15 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android">
-<!-- set label name for app -->
-    <application android:label="myapp">
-    <!-- it contains one activity -->
-        <activity android:name=".MainActivity">
-        <!-- it contains a launcher activity -->
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN"/>
-                <category android:name="android.intent.category.LAUNCHER"/>
-            </intent-filter>
-        </activity>
-    </application>
-
+  <!-- label name in app drawer -->
+  <application android:label="aaaik9">
+    <!-- /activity -->
+    <activity android:name=".MainActivity" android:exported="true">
+      <!-- /activity/launcherActivity -->
+      <intent-filter>
+        <action android:name="android.intent.action.MAIN"/>
+        <category android:name="android.intent.category.LAUNCHER"/>
+      </intent-filter>
+    </activity>
+  </application>
 </manifest>

@@ -1,25 +1,31 @@
-// list of plugin required for building this project
 plugins {
   id 'com.android.application'
 }
 
 // settings required for android plugin
 android {
-    namespace 'com.name.myapp' //directory of java class files
 
-    compileSdkVersion 30 //compile app for this version of API
+    //directory of java class files
+    // namespace 'com.name.myapp'
+    namespace 'com.github.Un1Gfn.bibletracker' // directory of java class files
+
+    compileSdkVersion 31 // Android 12
+
     defaultConfig {
-        applicationId 'com.name.myapp' //set id for app
-        minSdkVersion 16 //minimum API this app supports
-        targetSdkVersion 30 //compile for this API
+        // https://developer.android.com/studio/build/configure-app-module#set-application-id
+        applicationId 'com.github.Un1Gfn.bibletracker'
+        // minSdkVersion 16 // Android 4.1
+        minSdkVersion 31 // Android 12
+        targetSdkVersion 31 // Android 12
         versionCode 1
         versionName "1.0"
     }
+
     buildTypes {
         release {
             minifyEnabled false
-            proguardFiles getDefaultProguardFile('proguard-android.txt'),
-                    'proguard-rules.pro'
+            // proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
     }
+
 }
