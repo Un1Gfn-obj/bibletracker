@@ -1,0 +1,20 @@
+============
+bibletracker
+============
+
+Credits
+=======
+
+https://github.com/yopot/android_app
+https://youtu.be/qGTUDQfgy3s
+
+https://github.com/Un1Gfn-obj/adwible
+
+
+Build
+=====
+
+cd bibletracker
+source ./android.bashrc
+./icon.sh
+gradle assembleDebug
